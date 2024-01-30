@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h2>Hoş Geldiniz!</h2>
+    <p>Lütfen adınızı girin:</p>
+    <form action="@Url.Action("SetName")" method="post">
+        <input type="text" name="name" required />
+        <input type="submit" value="Gönder" />
+    </form>
+</div
